@@ -22,7 +22,7 @@ $ npm install
 
 ## Iniciar o chat
 
-Para dar início ao chat basta, usar os seguinte comandos:
+Para dar início ao chat basta usar os seguinte comandos:
 
 ```bash
 $ npm run build
