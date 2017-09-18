@@ -1,0 +1,45 @@
+/* Todos os Estilos */
+
+/* Estilo do ChatInput */
+footer {
+  color: white;
+  position: fixed;
+  padding: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20vh;
+}
+
+footer .input-field input,
+button {
+  border-color: #FFFFFF;
+}
+
+.input-field.active {
+  border-color: #03a9f4;
+}
+
+.input-field .prefix.active {
+  color: #03a9f4;
+}
+
+.chip {
+  font-style: italic;
+}
+
+/* Estilo do ChatHistory */
+.collection {
+  margin: 0 0 130px 0;
+  overflow-y: scroll;
+  height: 80vh;
+}
+
+.message-date {
+  color: #585858;
+}
+
+body {
+  background: #EEEEEE;
+  overflow: hidden;
+}
