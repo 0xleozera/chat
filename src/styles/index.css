@@ -32,6 +32,7 @@ button {
   font-style: italic;
 }
 
+
 /* Estilo do ChatHistory */
 .collection {
   margin: 0 0 130px 0;
@@ -39,8 +40,13 @@ button {
   height: 80vh;
 }
 
+.title {
+  font-weight: bold;
+}
+
 .message-date {
   color: #585858;
+  font-size: 10px;
 }
 
 body {
