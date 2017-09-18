@@ -8,8 +8,6 @@
 
 Instalar Node.JS e NPM
 
-## Iniciar
-
 Clonar esse repositório
 
 ## NPM scripts
