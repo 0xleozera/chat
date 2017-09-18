@@ -16,12 +16,16 @@ button {
   border-color: #FFFFFF;
 }
 
-.input-field.active {
-  border-color: #03a9f4;
+.footer-color {
+  background-color: #7cabbf;
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #f06292;
 }
 
 .input-field .prefix.active {
-  color: #03a9f4;
+  color: #f06292
 }
 
 .chip {

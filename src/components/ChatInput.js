@@ -38,7 +38,7 @@ class ChatInput extends React.Component {
     const { props, onSubmit } = this;
     const imgURL = '//robohash.org/' + props.userID + '?set=set2&bgset=bg2&size=70x70';
     return (
-      <footer className="purple darken-3">
+      <footer className="footer-color">
         <form className="container" onSubmit={ onSubmit }>
           <div className="row">
             <div className="input-field col s10">
@@ -50,7 +50,7 @@ class ChatInput extends React.Component {
               </span>
             </div>
             <div className="input-field col s2">
-              <button type="submit" className="waves-effect waves-light btn-floating light-blue btn-large">
+              <button type="submit" className="waves-effect waves-light btn-floating pink lighten-2 btn-large">
                 <i className="mdi-content-send" />
               </button>
             </div>
